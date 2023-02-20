@@ -1,0 +1,13 @@
+@import url(./reset.css);
+
+body {
+    /* position: absolute;
+    width: 1920px;
+    height: 1920px;
+    left: 0px;
+    top: 274px; */
+    background: #4EA8DE;
+    opacity: 0.3;
+    filter: blur(282px);
+
+}
