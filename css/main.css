@@ -7,7 +7,8 @@ body {
     left: 0px;
     top: 274px; */
     background: #4EA8DE;
-    opacity: 0.3;
-    filter: blur(282px);
-
+    /* opacity: 0.3; */
+    /* filter: blur(282px); */
+    font-family: sans-serif;
+    font-size: 16px;
 }
