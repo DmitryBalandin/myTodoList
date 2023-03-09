@@ -17,13 +17,15 @@
 <body>
     <header>
         <div class="container">
-            <div class="name-list">
-                <h1 class="name-list__title">ToDo</h1>
-                <span class="name-list__subtitle">Challenger Ignite</span>
-            </div>
-            <div class="description-list">
-                <span class="deacription-list__with">With:</span>
-                <span class="deacription-list__before-with">Design System, Componentization</span>
+            <div class="name-list__container">
+                <div class="name-list">
+                    <h1 class="name-list__title">ToDo</h1>
+                    <span class="name-list__subtitle">Challenger Ignite</span>
+                </div>
+                <div class="description-list">
+                    <span class="deacription-list__with">With:</span>
+                    <span class="deacription-list__before-with">Design System, Componentization</span>
+                </div>
             </div>
         </div>
 
@@ -32,13 +34,17 @@
         <div class="container">
             <div class="file-todo">
                 <div class="file-todo__footer">
-                    <img src="" alt="img title" class="file-todo__title">
+                    <div class="file-todo__title">
+                        <img src="./img/Logo.svg" alt="img title" class="file-todo__title-img">
+                    </div>
                 </div>
-                <input  class="file-todo__input-task" type="text">
-                <button class="file-todo__button input-task-button">
-                    <span class="input-task-button__name"></span>
-                    <img class="input-task-button__button" src="" alt="create task">
-                </button> 
+                <div class="file-todo__field-input">
+                    <input class="file-todo__input-task" type="text">
+                    <button class="file-todo__button input-task-button">
+                        <span class="input-task-button__name">Input</span>
+                        <img class="input-task-button__button" src="./img/plus.svg" alt="create task">
+                    </button>
+                </div>
             </div>
         </div>
     </main>

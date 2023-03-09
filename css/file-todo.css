@@ -1,0 +1,61 @@
+.container {}
+
+.file-todo {
+    border-radius: 40px;
+    overflow: hidden;
+    height: 1024px;
+    background-color: #454545;
+    margin-bottom: 555px;
+}
+
+.file-todo__footer {
+    height: 200px;
+    background-color: rgba(13, 13, 13, 1);
+}
+
+.file-todo__title {
+
+    padding-top: 72px;
+    margin: 0 auto;
+    width: 126px;
+    height: 48px;
+}
+
+.file-todo__title-img {
+    object-fit: fill;
+}
+
+.file-todo__field-input {
+    width: 732px;
+    height: 54px;
+    margin: 0 auto;
+    margin-top: -27px;
+}
+
+.file-todo__input-task {
+    width: 634px;
+    height: 54px;
+    border: 1px solid rgba(13, 13, 13, 1);
+    background-color: rgba(38, 38, 38, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(128, 128, 128, 1);
+    border-radius: 8px;
+    padding: 16px;
+
+}
+
+.file-todo__input-task_active {
+    color: rgba(242, 242, 242, 1);
+    border: 1px solid rgba(94, 96, 206, 1);
+}
+
+.file-todo__button {}
+
+.input-task-button {}
+
+.input-task-button__name {}
+
+.input-task-button__button {}

@@ -1,10 +1,15 @@
 .container {
-    display: flex;
-    justify-content: space-between;
     max-width: 1470px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px; 
+    
+}
+
+.name-list__container {
+    display: flex;
+    justify-content: space-between;
     column-gap: 15px;
+    margin-bottom: 168px;
 }
 
 .name-list {
@@ -18,7 +23,7 @@
     font-weight: 700;
     font-size: 144px;
     line-height: 169px;
-    width: 537px; 
+    width: 537px;
     margin-top: 184px;
 }
 
