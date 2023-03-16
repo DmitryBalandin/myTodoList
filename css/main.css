@@ -1,6 +1,7 @@
 @import "./reset.css";
 @import "./header.css";
 @import "./file-todo.css";
+@import "./main-todo.css";
 
 body {
     /* position: absolute;
@@ -8,9 +9,14 @@ body {
     height: 1920px;
     left: 0px;
     top: 274px; */
-    background: #4EA8DE;
+    
+    background: #1E6F9F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* opacity: 0.3; */
     /* filter: blur(282px); */
     font-family: sans-serif;
     font-size: 16px;
+    
+    
+    
 }

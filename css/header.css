@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0 15px; 
     
+    
 }
 
 .name-list__container {
@@ -36,7 +37,7 @@
     line-height: 94px;
     width: 599px;
     margin-top: -25px;
-
+    
 }
 
 .description-list {

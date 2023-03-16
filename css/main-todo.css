@@ -1,0 +1,74 @@
+.file-todo__main {}
+
+.main-todo {
+    width: 736px;
+    max-height: 451px;
+    margin: 0 auto;
+}
+
+.main-todo__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.main-header {}
+
+.main-header__numder-of-task {}
+
+.main-header__title-numder-task {
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4EA8DE;
+}
+
+.main-header__sum-number-task {
+    display: inline-block;
+    padding: 2px 8px;
+    background: #333333;
+    border-radius: 999px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 8px;
+    color: rgba(217, 217, 217, 1);
+
+}
+
+.main-header__complected_task {}
+
+.main-header__title-complected_task {
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+     color: #8284FA;
+}
+
+.main-header__number-complected-task {
+    display: inline-block;
+    padding: 2px 8px;
+    background: #333333;
+    border-radius: 999px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 8px;
+    color: rgba(217, 217, 217, 1);
+
+}
+
+.file-todo__field-task {}
+
+.field-tasks {}
